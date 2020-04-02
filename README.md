@@ -8,5 +8,5 @@ As of this moment, the team is composed of:
 * Andrea Díaz - 201720031
 * Diego Linares - 201710524
 * Ariana Villegas - 201810614
-* Stephano Wurttele
+* Stephano Wurttele - 201810424
 
