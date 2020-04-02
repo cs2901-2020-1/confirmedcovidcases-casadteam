@@ -1,0 +1,4 @@
+.*
+covid_confirmed_cases/target
+covid_confirmed_cases/.idea
+!/.gitignore
