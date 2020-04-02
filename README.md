@@ -6,6 +6,6 @@ As of this moment, the team is composed of:
 
 * Sebastián Cárcamo
 * Andrea Díaz
-* Diego Linares
+* Diego Linares (201710524)
 * Ariana Villegas
 * Stephano Wurttele
