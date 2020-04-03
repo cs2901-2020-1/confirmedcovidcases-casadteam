@@ -45,7 +45,11 @@ public class DailyCasesBusiness {
      * @return updated DailyCase
      */
     public DailyCases update(DailyCases item){
-        return repository.save(item);
+        DailyCases a = repository.findById(item.getId()).get();
+        if(a != null){
+            return repository.save(item);
+        }
+        return null;
     }
 
     /**
