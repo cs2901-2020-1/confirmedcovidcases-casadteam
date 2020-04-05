@@ -18,7 +18,7 @@ public class DailyCases implements Serializable {
     private Integer quantity;
 
     @Column
-    private Date date;
+    private Date fecha;
 
     public DailyCases(){
     }
@@ -26,13 +26,13 @@ public class DailyCases implements Serializable {
     public DailyCases(Long id, Integer quantity, Date date){
         this.id = id;
         this.quantity = quantity;
-        this.date = date;
+        this.fecha = date;
     }
 
     public Long getId(){return id;}
     public void setId(Long id){this.id = id;}
     public Integer getQuantity(){return quantity;}
     public void setQuantity(){this.quantity = quantity;}
-    public Date getDate(){return date;}
-    public void setDate(){this.date = date;}
+    public Date getDate(){return fecha;}
+    public void setDate(Date date){this.fecha = date;}
 }
